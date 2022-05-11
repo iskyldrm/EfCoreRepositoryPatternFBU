@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.DAL.Abstract
 {
-    public interface IShipper : IRepositoryBase<Shipper>
+    public interface IProduct:IRepositoryBase<Product>
     {
-    }       
+    }
 }
